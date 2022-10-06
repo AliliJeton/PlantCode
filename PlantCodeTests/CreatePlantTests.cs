@@ -35,7 +35,7 @@ namespace PlantCode.Tests
             emptyList.Add("Hallo -down-> Jeton");
             emptyList.Add("Wie gehts?");
             string title = "test";
-            string theme = "dark";
+            string theme = "darkkk";
 
             string output = plant.createPlant(ref emptyList, title, theme);
 
