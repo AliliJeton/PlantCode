@@ -18,7 +18,7 @@ namespace PlantCode.Tests
         {
             List<string> emptyList = new List<string>();
             string title = "test";
-            string theme = "dark___";
+            string theme = "dark";
 
             string output = plant.createPlant(ref emptyList, title, theme);
 
@@ -32,10 +32,8 @@ namespace PlantCode.Tests
         public void cPlantWithInput()
         {
             List<string> emptyList = new List<string>();
-            emptyList.Add("Hallo -down-> Jeton");
-            emptyList.Add("Wie gehts?");
             string title = "test";
-            string theme = "darkkk";
+            string theme = "dark";
 
             string output = plant.createPlant(ref emptyList, title, theme);
 
