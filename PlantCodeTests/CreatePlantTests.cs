@@ -33,7 +33,7 @@ namespace PlantCode.Tests
         {
             List<string> emptyList = new List<string>();
             string title = "test";
-            string theme = "dark__";
+            string theme = "dark";
 
             string output = plant.createPlant(ref emptyList, title, theme);
 
